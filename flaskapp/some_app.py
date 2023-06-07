@@ -1,4 +1,5 @@
 print("Hello world") 
+pip list
 from flask import Flask
 app = Flask(__name__) 
 #декоратор для вывода страницы по умолчанию 
