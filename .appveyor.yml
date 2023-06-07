@@ -1,6 +1,6 @@
 install:
 - py -m venv env
-- source env/bin/activate
+- env/Scripts/activate
 - pip install flask
 - pip install requests
 - pip list
