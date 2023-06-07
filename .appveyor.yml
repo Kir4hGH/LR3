@@ -1,6 +1,3 @@
-install:
-- pip install flask
-- pip list
 build: off
 test_script:
 - py ./flaskapp/some_app.py
