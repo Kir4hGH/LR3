@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Google reCAPTCHA Example</title>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<form method="POST" action="/">
+{{ form.csrf_token }}
+{{ form.recaptcha }}
+{{ form.submit }}
+</form>
+</body>
+</html> 
