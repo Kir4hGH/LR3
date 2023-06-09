@@ -6,7 +6,7 @@ from flask_wtf import FlaskForm
 from wtforms import FileField, FloatField, SubmitField
 from flask_wtf.recaptcha import RecaptchaField
 
-app = Flask(__name__, template_folder='E:\РВСДНиПЗ\LR3')
+app = Flask(__name__, template_folder='./flaskapp')
 
 app.config['SECRET_KEY'] = '6LfV2nkmAAAAACIRRTKOB85-s0wZOwYJOxRNGoI5'
 app.config['RECAPTCHA_PUBLIC_KEY'] = '6LfV2nkmAAAAAFGuW5iYfpXc48TxbfjMJwbM-ci-'
